@@ -9,22 +9,23 @@ body {
 }
 
 .calculator {
-  background-color: #fff;
-  border-radius: 10px;
+  background-color: #7f6ff8;
+  border-radius: 40px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   padding: 20px;
 }
 
 .display {
-  background-color: #f8f8f8;
+  background-color: #7f6ff8;
   border: 1px solid #ddd;
-  border-radius: 5px;
+  border-radius: 20px;
   font-size: 24px;
   height: 50px;
   line-height: 50px;
   margin-bottom: 10px;
   padding: 0 10px;
   text-align: right;
+  color: #f0ecec;
 }
 
 .keypad {
@@ -34,10 +35,10 @@ body {
 }
 
 button {
-  background-color: #e0e0e0;
+  background-color: #302e2e;
   border: none;
-  border-radius: 5px;
-  color: #333;
+  border-radius: 20px;
+  color: #f0ecec;
   cursor: pointer;
   font-size: 18px;
   height: 50px;
@@ -45,9 +46,9 @@ button {
 }
 
 button:hover {
-  background-color: #d0d0d0;
+  background-color: #363a42;
 }
 
 button:active {
-  background-color: #c0c0c0;
+  background-color: #4e4b4b;
 }

@@ -26,10 +26,12 @@ const App: React.FC = () => {
   };
 
   return (
+    <>
+      <Display value={display} /> 
     <div className="calculator">
-      <Display value={display} />
       <Keypad onKeyPress={handleKeyPress} />
     </div>
+    </>
   );
 };
 
